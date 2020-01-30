@@ -30,11 +30,11 @@
   }
 
 body {
-    font-family: 'Soruce Sans Prop', sans-serif;
+    font-family: 'Soruce Sans Prop', system-ui;
     margin: 0;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Fjalla One', system-ui;
     font-weight: normal;
 }
 h1 {
@@ -44,12 +44,13 @@ h1 {
     text-transform: capitalize;
     color: white;
     margin: 0;
+    max-width: 500px;
 }
 h1 strong, h2 {
     color: #026FFF;
 }
 h2 { 
-    font-family: 'Soruce Sans Prop', sans-serif;
+    font-family: 'Soruce Sans Prop', system-ui;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 24px;
@@ -98,7 +99,7 @@ h2 {
     font-size: 20px;
 }
 .project strong {    
-    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Fjalla One', system-ui;
 }
 .project-details {
     width: 50%;
@@ -258,7 +259,7 @@ figure {
     vertical-align: middle;
 }
 .form-email h3 {
-    font-family: 'Soruce Sans Prop', sans-serif;
+    font-family: 'Soruce Sans Prop', system-ui;
 }
 /* container */
 .container {
